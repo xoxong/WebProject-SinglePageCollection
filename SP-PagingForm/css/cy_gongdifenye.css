@@ -1,0 +1,28 @@
+*{margin: 0;padding: 0;}
+table,a,input{outline: none;appearance: none;-webkit-appearance: none;}
+
+.table_box{width: 1200px;margin: 0 auto;height: auto;margin-bottom: 80px;margin-top: 50px;overflow: hidden;}
+.table_box .serch_box{width: 100%;height: auto;float: left;overflow: hidden;float: left;}
+.table_box .serch_box span{float: left; line-height:30px ;}
+.table_box .serch_box .inp_text{width: 200px;height: 30px;padding-left: 10px;border: 1px solid gray;float: left;}
+.table_box .serch_box .inp_btn{width: 100px;height: 32px;border: 0px solid ;color: white;background-color: #4a4848;font-weight: bold;font-size: 15px;float: left;margin-left: 10px;line-height: 33px;}
+
+.table_box table{margin-top: 20px;float: left;width: 1200px;border: 0px solid;display: block;}
+.table_box table tr{display: block;width: 1198px;border: 1px solid #c9c6c5;border-top: 0px solid;float: left;}
+.table_box table th,td{height: 51px;line-height: 51px;text-align: center;}
+.table_box table .tr1{border: 0px solid;display: block;font-size: 14px;width:auto;}
+.table_box table .tr1 th{border: 1px solid #c9c6c5;border-right: 0px solid;width: 150px;}
+.table_box table .tr1 .tr_h5{width: 443px;}
+.table_box table .tr1 .tr_h6{border: 1px solid #c9c6c5;border-right: 1px solid #c9c6c5;}
+
+.table_box table td{border:0px solid ;width: 151px;font-size: 13.1px;}
+.table_box table .tr2_d5{width: 441px;}
+.table_box table td a{width: 90px;height: 30px;background-color:#4a4848;display: block;text-align: center;line-height: 30px;color: white;float: left;font-size: 14px;margin-left: 30px;}
+.table_box table .btn{cursor: pointer;}
+
+
+/*预约表单*/
+.table_box .yuyue_from{width: 300px;height:auto;box-shadow: 0 0 20px gray;position: fixed;left: 40%;top: 30%;padding: 30px 10px;background-color: white;display: none;}
+.table_box .yuyue_from input{width: 250px;margin-left: 25px;margin-bottom: 10px;border: 1px solid gray;height: 35px;line-height: 35px;}
+.table_box #yy_yuyue{background-color: #4a4848;color: white;}
+.table_box #yy_quxiao{background-color:white;color: black;margin-bottom: 0;}

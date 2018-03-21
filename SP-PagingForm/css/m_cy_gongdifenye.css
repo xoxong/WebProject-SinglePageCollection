@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table,
+a,
+input {
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.table_box {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.table_box .serch_box {
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    float: left;
+}
+
+.table_box .serch_box span {
+    float: left;
+    font-size: 280%;
+    margin-left: 3%;
+}
+
+.table_box .serch_box .inp_text {
+    width: 30.636%;
+    height: 60px;
+    padding-left: 1%;
+    border: 1px solid gray;
+    float: left;
+    font-size: 200%;
+}
+
+.table_box .serch_box .inp_btn {
+    width: 20%;
+    height: 60px;
+    border: 0px solid;
+    color: white;
+    background-color: #4a4848;
+    font-weight: bold;
+    font-size: 200%;
+    float: left;
+    margin-left: 10px;
+    line-height: 33px;
+}
+
+.table_box table {
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+    border: 0px solid;
+    display: block;
+}
+
+.table_box table tr {
+    display: block;
+    width: 99.9%;
+    border: 1px solid #c9c6c5;
+    border-top: 0px solid;
+    float: left;
+}
+
+.table_box table th,
+td {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.table_box table .tr1 {
+    border: 0px solid;
+    display: block;
+    font-size: 210%;
+    width: 100%;
+}
+
+.table_box table .tr1 th {
+    border: 1px solid #c9c6c5;
+    border-right: 0px solid;
+    width: 16.52%;
+    float: left;
+}
+
+.table_box table .tr1 .tr_h5 {}
+
+.table_box table .tr1 .tr_h6 {
+    border: 1px solid #c9c6c5;
+    border-right: 1px solid #c9c6c5;
+}
+
+.table_box table td {
+    border: 0px solid;
+    width: 16.52%;
+    font-size: 210%;
+    padding: 1% 0;
+}
+
+.table_box table td a {
+    width: 90%;
+    height: auto;
+    background-color: #4a4848;
+    display: block;
+    text-align: center;
+    line-height: 100%;
+    color: white;
+    float: left;
+    font-size: 100%;
+    padding: 5%;
+}
+
+.table_box table .btn {
+    cursor: pointer;
+}
+
+
+/*预约表单*/
+
+.table_box .yuyue_from {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 20px gray;
+    position: fixed;
+    left: 40%;
+    top: 30%;
+    padding: 30px 10px;
+    background-color: white;
+    display: none;
+}
+
+.table_box .yuyue_from input {
+    width: 250px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    height: 35px;
+    line-height: 35px;
+}
+
+.table_box #yy_yuyue {
+    background-color: #4a4848;
+    color: white;
+}
+
+.table_box #yy_quxiao {
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+}
