@@ -1,5 +1,6 @@
 *{margin: 0;padding: 0;}
 table,a,input{outline: none;appearance: none;-webkit-appearance: none;}
+ 
 
 .table_box{width: 1200px;margin: 0 auto;height: auto;margin-bottom: 80px;margin-top: 50px;overflow: hidden;}
 .table_box .serch_box{width: 100%;height: auto;float: left;overflow: hidden;float: left;}
