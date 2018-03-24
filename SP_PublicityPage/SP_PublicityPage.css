@@ -1,0 +1,116 @@
+/*xb:
+   type:单页面 装修产品概念展示
+   purpose:熊一乐
+   describe: 2018.3.22 
+*/
+a,button,input,select{outline:none;-webkit-appearance:none;appearance:none;-moz-appearance:none;border: 0px solid}
+*{margin:0;padding:0;font-family:'微软雅黑';}
+a{text-decoration:none}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+ul li{list-style-type:none}
+@media all and (min-width: 320px){html{font-size:42.66667px !important}}@media all and (min-width: 360px){html{font-size:48px !important}}
+@media all and (min-width: 375px){html{font-size:50px !important}}@media all and (min-width: 384px){html{font-size:51.2px !important}}
+@media all and (min-width: 412px){html{font-size:54.93333px !important}}@media all and (min-width: 414px){html{font-size:55.2px !important}}
+@media all and (min-width: 480px){html{font-size:64px !important}}@media all and (min-width: 550px){html{font-size:73.33333px !important}}
+@media all and (min-width: 600px){html{font-size:80px !important}}@media all and (min-width: 640px){html{font-size:85.33333px !important}}
+@media all and (min-width: 700px){html{font-size:93.33333px !important}}@media all and (min-width: 765px){html{font-size:102px !important}}
+@media all and (min-width: 768px){html{font-size:102.4px !important}}@media all and (min-width: 800px){html{font-size:106.66667px !important}}
+@media all and (min-width: 850px){html{font-size:113.33333px !important}}@media all and (min-width: 917px){html{font-size:122.26667px !important}}
+@media all and (min-width: 1024px){html{font-size:136.53333px !important}}@media all and (min-width: 1080px){html{font-size:144px !important}}
+@media all and (min-width: 1152px){html{font-size:153.6px !important}}@media all and (min-width: 1280px){html{font-size:170.66667px !important}}
+@media all and (min-width: 1360px){html{font-size:181.33333px !important}}@media all and (min-width: 1366px){html{font-size:182.13333px !important}}
+
+/*xb: modularName:总 */
+.xbm_main{width: 100%;height: auto;float: left;overflow: hidden;}
+/*xb: modularName:模块类 */
+.xbm_z{width: 100%;height: auto;float: left;}
+
+/*xb: modularName:banner */
+.xbm_banner{position: relative;}
+.xbm_banner img:nth-of-type(1){width: 100%;height: auto;float: left;}
+.xbm_banner img:nth-of-type(2){width: 3.63rem;height: 3.78rem;background-color: rgba(255, 255, 255);position: absolute;top: -3.78rem;left: 1.89rem;z-index: 99;}
+
+/*xb: modularName: 1.在线预约免费设计*/
+.xbm_1{background-color: #291b1b;padding-bottom: 0.2rem;}
+.xbm_1 .xb_title{width: 100%;height: auto;float: left;font-size: 0.419rem;letter-spacing: 0.033rem;color: #fefdfc;margin-top: 0.57rem;margin-left: 1.85rem;}
+.xbm_1 .xb_titleDec{width: 4.64rem;height: 0.2rem;float: left;margin-left: 1.35rem;margin-top: 0.15rem;}
+/*xb: modularName:表单 */
+.xbm_1 form{margin-top: 0.31rem;float: left;}
+.xbm_1 form input{width: 6.67rem;padding-left: 0.14rem;height: 0.65rem;background-color: #ffffff;float: left;margin-left: 0.38rem;margin-bottom: 0.14rem;font-size: 0.295rem;}
+.xbm_1 .xbm_subBtn{width: 6.82rem;	height: 0.65rem;background-color: #fce202;float: left;margin-left: 0.38rem;text-align: center;line-height: 0.65rem;color: #404040;font-size: 0.295rem;letter-spacing: 0.024rem;}
+/*xb: modularName:轮播 */
+.xbm_1 .xb_lunbo{width: 5.2rem;height: 1.6rem;float: left;margin-left: 1.3rem;margin-top: 0.35rem;overflow: hidden;}
+.xbm_1 .xb_lunbo ul{width: 100%;height: auto;float: left;}
+.xbm_1 .xb_lunbo ul li{width: 100%;height: 0.3rem;font-size: 0.28rem;letter-spacing: 0.016rem;color: #fefefe;margin-bottom: 0.09rem;}
+
+/*xb: modularName:2.此处为标题*/
+.xbm_2{position: relative;height: 6.4rem;}
+.xbm_2 img:nth-of-type(1){width: 100%; height:auto;float: left;}
+.xbm_2 .xb_imgZ{width: 1.84rem;height: 0.4rem;border-radius: 0.2rem;position: absolute;z-index: 99;}
+.xbm_2 img:nth-of-type(2){left: -1.84rem;top: 2.38rem}
+.xbm_2 img:nth-of-type(3){left: -1.84rem;top: 2.79rem}
+.xbm_2 img:nth-of-type(4){left: -1.84rem;top: 3.25rem}
+.xbm_2 img:nth-of-type(5){left: -1.84rem;top: 3.51rem}
+.xbm_2 img:nth-of-type(6){left:-1.84rem;top:  3.91rem}
+.xbm_2 img:nth-of-type(7){left: -1.84rem;top: 4.25rem}
+.xbm_2 img:nth-of-type(8){left: -1.84rem;top: 4.82rem}
+.xbm_2 img:nth-of-type(9){left: -1.84rem;top: 4.97rem}
+
+/*xb: modularName:3.此处为标题 */
+.xbm_3{padding-bottom: 0.29rem;}
+.xbm_3 .xb_titleBox{width: 100%;height: 0.83rem;float: left;text-align: center;line-height: 0.83rem;font-size: 0.362rem;letter-spacing: 0.029rem;color: #393636;font-weight: bold;background-color: #fce202;}
+.xbm_3 img{width: 3.32rem;height: 2.84rem;float: left;margin-left: 0.29rem;margin-top: 0.14rem;}
+
+/*xb: modularName:4.此处为标题 */
+.xbm_4{background-color: #ece9e8;padding-bottom: 0.29rem;}
+.xbm_4 .xb_titleBox{width: 100%;height: 0.83rem;float: left;text-align: center;line-height: 0.83rem;font-size: 0.362rem;letter-spacing: 0.029rem;color: #393636;font-weight: bold;background-color: #fce202;}
+.xbm_4 img{width: 2.39rem;height: 1.94rem;border-radius: 0.1rem;margin-left: 0.07rem;margin-top: 0.23rem;float: left;}
+
+/*xb: modularName:5.此处为标题 */
+.xbm_5{position: relative; height: 4.59rem;overflow: hidden;}
+.xbm_5 .xb_titleBox{width: 100%;height: auto;float: left;text-align: center;font-size: 0.362rem;letter-spacing: 0.029rem;color: #393636;font-weight: bold;margin-top: 0.35rem;}
+.xbm_5 img:nth-of-type(1){width: 2.8rem;height: 2.72rem;position: absolute;left: 2.42rem;top: -2.8rem;z-index: 100;}
+.xbm_5 .xb_imgZ{height: 0.32rem;position: absolute;}
+.xbm_5 img:nth-of-type(2){width:2.94rem;left:-2.94rem;top: 1.59rem}
+.xbm_5 img:nth-of-type(3){width:2.66rem;left:-2.66rem;top: 2.11rem}
+.xbm_5 img:nth-of-type(4){width:2.72rem;left:-2.72rem;top: 2.65rem}
+.xbm_5 img:nth-of-type(5){width:3.06rem;left:-3.06rem;top: 3.22rem}
+.xbm_5 img:nth-of-type(6){width:2.71rem;right: -2.71rem;top: 1.59rem}
+.xbm_5 img:nth-of-type(7){width:2.77rem;right: -2.77rem;top: 2.11rem}
+.xbm_5 img:nth-of-type(8){width:2.76rem;right: -2.76rem;top: 2.66rem}
+.xbm_5 img:nth-of-type(9){width:2.8rem;right: -2.8rem;top: 3.21rem}
+
+/*xb: modularName:6.此处为标题*/
+.xbm_6{position: relative;}
+.xbm_6 .xb_titleBox{width: 100%;height: 1.16rem;float: left;text-align: center;font-size: 0.362rem;letter-spacing: 0.029rem;color: #393636;font-weight: bold;line-height: 1.16rem;background-color: #fce202;}
+.xbm_6 img:nth-of-type(1){width: 100%;height: auto;float: left;}
+.xbm_6 img:nth-of-type(2){position: absolute;width:4.11rem;height: 2.71rem;left: -4.11rem;top: 1.66rem;z-index: 99;}
+.xbm_6 img:nth-of-type(3){position: absolute;width:3.44rem;height: 2.71rem;right:-3.44rem;top: 1.66rem;z-index: 99;}
+
+/*xb: modularName:7.此处为标题 */
+.xbm_7{background-color: #fce202;padding-bottom: 0.24rem;height: 4.89rem;}
+.xbm_7 .xb_titleBox{font-size: 0.362rem;letter-spacing: 0.029rem;color: #393636;font-weight:bold;width: 100%;height: auto; text-align: center;margin-top: 0.32rem;float: left;}
+.xbm_7 .xb_imgBox{width: 6.35rem;height: 3.73rem;height: 3.73rem;background-color: #fafafa;float: left;margin-left: 0.52rem;margin-top: 0.28rem;}
+.xbm_7 .xb_imgBox img{width: 100%;height: auto;float: left;}
+
+/*xb: modularName:8.此处为标题 */
+.xbm_8{background-color: #291b1b;padding-bottom: 0.29rem;}
+.xbm_8 .xb_titleBox{width: 100%;float: left;height: auto;font-size: 0.362rem;letter-spacing: 0.029rem;color: #ffffff;font-weight: bold;text-align: center;margin-top: 0.22rem;}
+.xbm_8 form{margin-top: 0.36rem;float: left;}
+.xbm_8 form input{width: 6rem;margin-left: 0.62rem;height: 0.6rem;background-color: #ffffff;border-radius: 0.27rem;font-size: 0.223rem;padding-left: 0.21rem;margin-bottom: 0.1rem;float: left;}
+.xbm_8 .xbm_subBtn{width: 6.21rem;height: 0.6rem;background-color: #fce202;border-radius: 0.27rem;font-size: 0.362rem;letter-spacing: 0.029rem;color: #654a3d;text-align: center;line-height: 0.6rem;float: left;margin-left: 0.62rem;margin-top: 0.1rem;}
+.xbm_8 .xb_dec{width: 100%;height: auto;float: left;text-align: center;font-size: 0.35rem;letter-spacing: 0.034rem;color: #ffffff;margin-top: 0.5rem;line-height: 0.3rem}
+.xbm_8 .xb_dec span{font-size: 0.2rem;}
+.xbm_8 .xb_dec2{width: 3.69rem;height: 0.43rem;float: left;margin-top: 0.16rem;margin-left: 1.9rem;}
+
+
+
+
+
+
+
+
+
